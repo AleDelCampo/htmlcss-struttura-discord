@@ -12,7 +12,6 @@ header{
 }
 
 .navbar{
-    display: flex;
     justify-content: center;
     display: flex;
     height: 44px;
@@ -54,3 +53,17 @@ ul{
     list-style-type: none;
 }
 
+.square-container{
+    display: flex;
+    background-color: #00008b;
+    padding: 40px;
+    justify-content: center;
+}
+
+.rectangle{
+    display: flex;
+    align-self: center;
+    background-color: #ee82ee;
+    height: 400px;
+    width: 905px;
+}
