@@ -127,3 +127,19 @@ ul{
     border: 2px black dashed;
 }
 
+.container2{
+    display: flex;
+    background-color: #d3d3d3;
+    padding: 40px;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.green-square{
+    display: flex;
+    align-self: center;
+    background-color: #228b22;
+    height: 860px;
+    width: 1160px;
+    border: 2px black dashed;
+}
