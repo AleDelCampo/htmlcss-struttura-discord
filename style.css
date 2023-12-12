@@ -143,3 +143,31 @@ ul{
     width: 1160px;
     border: 2px black dashed;
 }
+
+footer{
+    display: flex;
+    background-color: #23272a;
+    padding: 40px;
+    padding-top: 16px;
+    justify-content: center;
+}
+
+.left-column{
+    height: 560px;
+    width: 350px;
+    background-color: #f08080;
+    border: 2px black dashed;
+}
+
+.right-column{
+    display: flex;
+    height: 560px;
+    width: 810px;
+    background-color: #20b2aa;
+    border: 2px black dashed;
+}
+
+#test{
+    border: 2px white dashed;
+    width: 100%;
+}
