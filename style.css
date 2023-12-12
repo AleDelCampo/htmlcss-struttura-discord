@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: sans-serif;
 }
 
 header{
@@ -144,7 +144,7 @@ ul{
     border: 2px black dashed;
 }
 
-footer{
+.footer-container{
     display: flex;
     background-color: #23272a;
     padding: 40px;
@@ -167,7 +167,41 @@ footer{
     border: 2px black dashed;
 }
 
-#test{
+#columns{
     border: 2px white dashed;
     width: 100%;
+}
+
+.bottom-footer{
+    display: flex;
+    background-color: #23272a;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    width: 100%;
+}
+
+.bottom-footer-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #7fffd4;
+    margin-top: 26px;
+    height: 78px;
+    width: 1160px
+
+}
+
+#Logo{
+    border: black 2px dashed;
+    background-color: #ffb6c1;
+    align-self: center;
+    padding: 8px;
+}
+
+#Bottone{
+    border: black 2px dashed;
+    background-color: #ffb6c1;
+    align-self: center;
+    padding: 8px;
 }
