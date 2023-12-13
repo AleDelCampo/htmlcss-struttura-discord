@@ -53,7 +53,7 @@ ul{
     list-style-type: none;
 }
 
-.square-container{
+.rectangle-container{
     display: flex;
     background-color: #00008b;
     padding: 40px;
@@ -65,7 +65,7 @@ ul{
     align-self: center;
     background-color: #ee82ee;
     height: 400px;
-    width: 905px;
+    width: 56%;
     border: 2px black dashed;
 }
 
@@ -102,14 +102,7 @@ ul{
     flex-direction: row-reverse;
 }
 
-.container1{
-    display: flex;
-    background-color: #ffffff;
-    padding: 40px;
-    justify-content: center;
-}
-
-.square1{
+.square3{
     display: flex;
     align-self: center;
     background-color: #1e90ff;
@@ -118,7 +111,7 @@ ul{
     border: 2px black dashed;
 }
 
-.square2{
+.square4{
     display: flex;
     align-self: center;
     background-color: #ffc0cb;
@@ -127,12 +120,36 @@ ul{
     border: 2px black dashed;
 }
 
-.container2{
+.container3{
+    display: flex;
+    background-color: #ffffff;
+    padding: 40px;
+    justify-content: center;
+}
+
+.square5{
+    display: flex;
+    align-self: center;
+    background-color: #1e90ff;
+    height: 480px;
+    width: 700px;
+    border: 2px black dashed;
+}
+
+.square6{
+    display: flex;
+    align-self: center;
+    background-color: #ffc0cb;
+    height: 480px;
+    width: 460px;
+    border: 2px black dashed;
+}
+
+.green-container{
     display: flex;
     background-color: #d3d3d3;
     padding: 40px;
     justify-content: center;
-    flex-direction: row-reverse;
 }
 
 .green-square{
